@@ -1,5 +1,5 @@
-name: epicture
-description: A new Flutter project.
+name: flutter_app
+description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,7 +23,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  webview_flutter: ^1.0.3
+  flutter_webview_plugin: ^0.3.11
+  http: ^0.12.2
+  file_picker: ^1.4.2
+  image_picker: ^0.6.1
+  provider: ^4.0.0
+  curved_navigation_bar: 0.3.4
+  loading_animations: ^2.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -32,7 +39,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  english_words: ^3.1.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
